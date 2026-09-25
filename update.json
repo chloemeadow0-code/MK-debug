@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
-  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.2/Mikeko-0.2.2.apk",
-  "changelog": "新功能\n- Telegram Bot 通道：TG 私聊 AI 对话 + 聊天单向镜像到 TG\n- AI 语音通话：流式朗读、说话打断、自动断句\n- 灵动岛悬浮胶囊快捷入口\n- 对话内图片生成工具，发图质量三档可调\n- Material You 动态取色、自定义壁纸与文字色调节\n- 审计日志脱敏请求体、设置页改版\n修复\n- 统一网络路由（应用内代理→系统代理→直连）\n- 空回复降级重试、思考链残片过滤\n- 视觉能力探测收紧\n\n版本号说明：正式版本号仅在对外发布时分配，内部测试构建不出现在 Release 列表，版本号可能不连续；以 Release 列表为准，直接更新到最新版即可。"
+  "version": "0.2.3",
+  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.3/Mikeko-0.2.3.apk",
+  "changelog": "更新\n- 版本号升级至 0.2.3 (versionCode 12)\n- 与桌面端 0.2.18 同步发版\n\n版本号说明：正式版本号仅在对外发布时分配，内部测试构建不出现在 Release 列表，版本号可能不连续；以 Release 列表为准，直接更新到最新版即可。"
 }
