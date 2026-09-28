@@ -1,5 +1,5 @@
 {
-  "version": "0.2.3",
-  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.3/Mikeko-0.2.3.apk",
-  "changelog": "更新\n- 版本号升级至 0.2.3 (versionCode 12)\n- 与桌面端 0.2.18 同步发版\n\n版本号说明：正式版本号仅在对外发布时分配，内部测试构建不出现在 Release 列表，版本号可能不连续；以 Release 列表为准，直接更新到最新版即可。"
+  "version": "0.2.4",
+  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.4/Mikeko-0.2.4.apk",
+  "changelog": "## 更新内容\n\n**新功能**\n- 会话置顶：侧栏会话条目支持置顶/取消置顶\n- 消息内联编辑：点击编辑后原文载入输入框\n- 会话滚动位置记忆：切换会话保存滚动位置\n- 消息跳转按钮：上一条/下一条悬浮跳转\n- 群聊成员名彩色胶囊底\n- 输入框展开/收起：默认 5 行可展开至 15 行\n- 上下文用量统计：输入框环形图标弹出浮层\n- 知识库条目可编辑\n- 技能包多来源支持：USER + WORKSPACE + PLUGIN\n- 定时任务 Cron 调度\n- 自定义字体导入：.ttf/.otf 全局替换\n- 侧边栏折叠/展开\n- 设置项搜索框\n- 工作流使用文档弹窗\n\n## 第三方合规材料（与 APK 同页分发）\n\n- `mikeko-0.2.4-android-thirdparty-source.zip`：PRoot（GPL-2.0-or-later）、talloc（LGPL-3.0-or-later）完整对应源码与构建脚本；内嵌 Alpine 3.21.0 rootfs 全部 copyleft 包（busybox、apk-tools、alpine-baselayout、pax-utils/scanelf、musl、ca-certificates-bundle）的 aports 快照 + 上游源码 tarball；licenses/ 许可证全文；REFERENCES.md（jlatexmath-android、desugar_jdk_libs 精确上游引用）\n- `papercup-private-05f30a9d.zip`：papercup-private 源码快照（commit `05f30a9d0b5de506db58e79d201fc97386a84284`，AGPL-3.0；Mikeko 语音通话功能的设计参考来源，依批准随包附出）\n- 逐组件声明见 `THIRD_PARTY_NOTICES.md`（zip 内含同版本副本）\n\n---\n\n**版本号说明**：本项目的正式版本号仅在对外发布时分配；开发过程中的内部测试构建不对外分发，也不会出现在 Release 列表中，因此版本号可能不连续。发布与否以本页 Release 列表为准——列表中的每个版本都对应一次真实发布，直接更新到最新版本即可。"
 }
