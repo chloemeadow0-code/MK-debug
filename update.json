@@ -1,6 +1,6 @@
 {
-  "version": "0.2.10",
-  "date": "2026年10月16日",
-  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.10/Mikeko-0.2.10.apk",
-  "changelog": "## 更新内容\n\n**修复**\n- 独立项目会话发消息后一直转圈、无任何输出（调用日志零记录）——独立项目下检索任务未启动导致生成协程永久挂起，普通会话不受影响\n- 全局「预设开场消息」不再灌进项目会话：项目没配开场白就一条不插，项目的开场消息只在项目详情页单独配置\n\n**移除**\n- MBTI 检测（印象系统）整体下线，侧栏/项目详情入口与后台深夜整理任务登记一并撤销；已生成的档案数据保留在本地不再读取\n\n## 第三方合规材料（与 APK 同页分发）\n\n- mikeko-0.2.10-android-thirdparty-source.zip：PRoot（GPL-2.0-or-later）、talloc（LGPL-3.0-or-later）完整对应源码与构建脚本；内嵌 Alpine 3.21.0 rootfs 全部 copyleft 包源码 tarball；licenses/ 许可证全文；REFERENCES.md。各组件源码锚点与 v0.2.9 相比无变化，包内容与上版一致\n- papercup-private-05f30a9d.zip：papercup-private 源码快照（commit 05f30a9d0b5de506db58e79d201fc97386a84284，AGPL-3.0；Mikeko 语音通话功能的设计参考来源，依批准随包附出；该仓库 HEAD 未变，快照与上版一致）\n- v0.2.8/v0.2.9 曾内置参考 SullyOS 设计二改的印象系统并按作者当时「二改须知」公告署名分发；该功能自 v0.2.10 起整体移除，历史发行物署名事实留档于 THIRD_PARTY_NOTICES.md\n- 本次依赖清单与 v0.2.9 相比无新增或升级的 copyleft 组件\n\n---\n\n**版本号说明**：本项目的正式版本号仅在对外发布时分配；开发过程中的内部测试构建不对外分发，也不会出现在 Release 列表中，因此版本号可能不连续。发布与否以本页 Release 列表为准——列表中的每个版本都对应一次真实发布，直接更新到最新版本即可。"
+  "version": "0.2.11",
+  "date": "2026年10月18日",
+  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.11/Mikeko-0.2.11.apk",
+  "changelog": "## 更新内容\n\n**新功能**\n- 健康数据定时上传（设置 → 设备与数据 → Supabase 数据同步）：把手环数据（步数 / 心率 / 血氧 / 压力 / 睡眠）周期写入 Supabase，间隔 5–240 分钟可调，支持立即上传与状态显示；桌面端 v0.2.26+ 可跨端查看\n- 自定义文字色深浅模式共用一个色值：深色下过暗、浅色下过亮会自动调整明度保证可读（保留你选的色调）\n\n**修复**\n- 新建聊天窗口发第一句话闪退（前台服务启动与停止的竞态）\n- 群聊会话没绑项目（或项目已删）不再报错空回，直接回落单聊走主模型\n- Supabase 推送失败提示翻成人话：区分旧密钥停用 / RLS 拒绝写入 / 钥匙填错三种情况\n\n## 第三方合规材料（与 APK 同页分发）\n\n- mikeko-0.2.11-android-thirdparty-source.zip：PRoot（GPL-2.0-or-later）、talloc（LGPL-3.0-or-later）完整对应源码与构建脚本；内嵌 Alpine 3.21.0 rootfs 全部 copyleft 包源码 tarball；licenses/ 许可证全文；REFERENCES.md。各组件源码锚点与 v0.2.10 相比无变化，包内容与上版一致\n- papercup-private-05f30a9d.zip：papercup-private 源码快照（commit 05f30a9d0b5de506db58e79d201fc97386a84284，AGPL-3.0；Mikeko 语音通话功能的设计参考来源，依批准随包附出；该仓库 HEAD 未变，快照与上版一致）\n- 本次依赖清单与 v0.2.10 相比无新增或升级的 copyleft 组件\n\n---\n\n**版本号说明**：本项目的正式版本号仅在对外发布时分配；开发过程中的内部测试构建不对外分发，也不会出现在 Release 列表中，因此版本号可能不连续。发布与否以本页 Release 列表为准——列表中的每个版本都对应一次真实发布，直接更新到最新版本即可。"
 }
