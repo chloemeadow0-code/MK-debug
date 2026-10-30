@@ -1,6 +1,6 @@
 {
-  "version": "0.2.11",
-  "date": "2026年10月18日",
-  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.11/Mikeko-0.2.11.apk",
-  "changelog": "## 更新内容\n\n**新功能**\n- 健康数据定时上传（设置 → 设备与数据 → Supabase 数据同步）：把手环数据（步数 / 心率 / 血氧 / 压力 / 睡眠）周期写入 Supabase，间隔 5–240 分钟可调，支持立即上传与状态显示；桌面端 v0.2.26+ 可跨端查看\n- 自定义文字色深浅模式共用一个色值：深色下过暗、浅色下过亮会自动调整明度保证可读（保留你选的色调）\n\n**修复**\n- 新建聊天窗口发第一句话闪退（前台服务启动与停止的竞态）\n- 群聊会话没绑项目（或项目已删）不再报错空回，直接回落单聊走主模型\n- Supabase 推送失败提示翻成人话：区分旧密钥停用 / RLS 拒绝写入 / 钥匙填错三种情况\n\n## 第三方合规材料（与 APK 同页分发）\n\n- mikeko-0.2.11-android-thirdparty-source.zip：PRoot（GPL-2.0-or-later）、talloc（LGPL-3.0-or-later）完整对应源码与构建脚本；内嵌 Alpine 3.21.0 rootfs 全部 copyleft 包源码 tarball；licenses/ 许可证全文；REFERENCES.md。各组件源码锚点与 v0.2.10 相比无变化，包内容与上版一致\n- papercup-private-05f30a9d.zip：papercup-private 源码快照（commit 05f30a9d0b5de506db58e79d201fc97386a84284，AGPL-3.0；Mikeko 语音通话功能的设计参考来源，依批准随包附出；该仓库 HEAD 未变，快照与上版一致）\n- 本次依赖清单与 v0.2.10 相比无新增或升级的 copyleft 组件\n\n---\n\n**版本号说明**：本项目的正式版本号仅在对外发布时分配；开发过程中的内部测试构建不对外分发，也不会出现在 Release 列表中，因此版本号可能不连续。发布与否以本页 Release 列表为准——列表中的每个版本都对应一次真实发布，直接更新到最新版本即可。"
+  "version": "0.2.13",
+  "date": "2026年10月30日",
+  "url": "https://github.com/chloemeadow0-code/MK-debug/releases/download/v0.2.13/Mikeko-0.2.13.apk",
+  "changelog": "新功能\n- 保活状态面板：统一保活中枢，前台服务被杀后闹钟重试拉起，支持开机自启\n- 设置页整体改版：统一分组卡片、图标与副标题，页头固定、内容滚动\n优化\n- 聊天页、侧栏、设置页字号、间距、对齐统一微调；小控件点击区放大到 48dp\n- 字体大小改为整体等比缩放（以前文字按比例平方放大）\n修复\n- 修复发消息后一直空回复的问题\n- 应用内更新下载后核对安装包版本号，错包拒装\n版本号说明\n- 正式版本号仅在对外发布时分配；内部测试构建不对外分发，不出现在 Release 列表，版本号可能不连续。发布与否以 Release 列表为准，直接更新到最新版即可"
 }
